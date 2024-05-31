@@ -1,7 +1,5 @@
 .Rproj.user*
 .Rhistory
 .Rproj.user
-docs
-inst/doc
-/doc/
+docs/deps
 /Meta/
