@@ -1,0 +1,34 @@
+url: ~
+template:
+  bootstrap: 5
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, tutorials, news]
+    right: [search, github]
+  components:
+    articles:
+      text: "Articles"
+      menu:
+      - text: "Category A"
+      - text: "Title A1"
+        href: "articles/a1.html"
+      - text: "Title A2"
+        href: "articles/a2.html"
+      - text: "----------"
+      - text: "Category B"
+      - text: "Article B1"
+        href: "articles/b1.html"
+
+reference:
+- title: Conversation functions
+- contents:
+  - has_concept("Conversation functions")
+
+- title: Test functions
+- contents:
+  - has_concept("Test functions")
+
+- title: Deprecated functions
+- contents:
+  - has_concept("Deprecated functions")

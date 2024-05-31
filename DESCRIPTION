@@ -2,8 +2,14 @@ Package: SCCTempConverter
 Type: Package
 Title: Temperature Conversion Package for Demonstration
 Version: 0.0.1.0
-RoxygenNote: 7.3.1
+Authors@R: 
+    person("Yuliia", "Tykhonova", , "yuliia.tykhonova@uni-hamburg.de", role = c("aut", "cre"))
+Description: Tools to convert a temperature from Celsius to Fahrenheit. I have
+    created this package to test package writting.
+License: GPL-3
 Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
 Suggests: 
     knitr,
     rmarkdown

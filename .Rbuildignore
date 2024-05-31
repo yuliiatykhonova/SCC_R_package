@@ -1,3 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 notebook*
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^README\.Rmd$
+^doc$
+^Meta$
